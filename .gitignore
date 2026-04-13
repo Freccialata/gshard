@@ -1,0 +1,17 @@
+# Odin build output
+gshard
+*.exe
+*.pdb
+*.o
+*.obj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test shards
+*.gshard/
+
+# Explicitly INCLUDE the releases directory and any binaries inside it
+!releases/*/gshard
+!releases/*/gshard.exe
